@@ -3,7 +3,7 @@
 - [x] simple Docker on Heroku
   - this works (see branch "use_Dockerfile"), but the deployment process becomes significantly longer (~1-2minutes instead of ~20seconds)
   - Maybe the other process is also longer
-- [ ] simple webapp without Docker on Heroku
+- [x] simple webapp without Docker on Heroku
 - [ ] streamlit local
 - [ ] streamlit with requirements on heroku?
 
@@ -49,4 +49,9 @@ Need...
 ```bash
 heroku stack # show available and selected stacks
 heroku stack:set heroku-20
+
+# to open locally, need local venv and then:
+heroku local
 ```
+
+## setup local streamlit
